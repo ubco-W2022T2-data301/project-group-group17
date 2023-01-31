@@ -1,0 +1,87 @@
+Rank,Country,Gold Medal,Silver Medal,Bronze Medal,Total,Rank Total,Country Code
+1,People's Republic of China,96,60,51,207,1,CHN
+2,Great Britain,41,38,45,124,2,GBR
+3,United States of America,37,36,31,104,4,USA
+4,RPC,36,33,49,118,3,RPC
+5,Netherlands,25,17,17,59,9,NED
+6,Ukraine,24,47,27,98,5,UKR
+7,Brazil,22,20,30,72,7,BRA
+8,Australia,21,29,30,80,6,AUS
+9,Italy,14,29,26,69,8,ITA
+10,Azerbaijan,14,1,4,19,20,AZE
+11,Japan,13,15,23,51,11,JPN
+12,Germany,13,12,18,43,12,GER
+13,Islamic Republic of Iran,12,11,1,24,15,IRI
+14,France,11,15,28,54,10,FRA
+15,Spain,9,15,12,36,13,ESP
+16,Uzbekistan,8,5,6,19,20,UZB
+17,Poland,7,6,12,25,14,POL
+18,Hungary,7,5,4,16,24,HUN
+19,Switzerland,7,4,3,14,27,SUI
+20,Mexico,7,2,13,22,18,MEX
+21,New Zealand,6,3,3,12,28,NZL
+22,Israel,6,2,1,9,35,ISR
+23,Canada,5,10,6,21,19,CAN
+24,India,5,8,6,19,20,IND
+25,Thailand,5,5,8,18,23,THA
+26,Slovakia,5,2,4,11,30,SVK
+27,Belarus,5,1,1,7,41,BLR
+28,Tunisia,4,5,2,11,30,TUN
+29,Algeria,4,4,4,12,28,ALG
+30,Morocco,4,4,3,11,30,MAR
+31,Belgium,4,3,8,15,25,BEL
+32,Ireland,4,2,1,7,41,IRL
+33,Nigeria,4,1,5,10,34,NGR
+34,South Africa,4,1,2,7,41,RSA
+35,Cuba,4,1,1,6,47,CUB
+36,Jordan,4,0,1,5,50,JOR
+37,Colombia,3,7,14,24,15,COL
+38,Venezuela,3,2,2,7,41,VEN
+39,Malaysia,3,2,0,5,50,MAS
+40,Denmark,3,1,1,5,50,DEN
+41,Republic of Korea,2,10,12,24,15,KOR
+42,Turkey,2,4,9,15,25,TUR
+43,Indonesia,2,3,4,9,35,INA
+44,Czech Republic,2,3,3,8,39,CZE
+45,Chile,2,3,1,6,47,CHI
+45,Serbia,2,3,1,6,47,SRB
+47,Norway,2,0,2,4,57,NOR
+48,Singapore,2,0,0,2,63,SGP
+49,Austria,1,5,3,9,35,AUT
+50,Sweden,1,5,2,8,39,SWE
+51,Greece,1,3,7,11,30,GRE
+52,Finland,1,3,1,5,50,FIN
+52,Kazakhstan,1,3,1,5,50,KAZ
+54,United Arab Emirates,1,1,1,3,58,UAE
+55,Costa Rica,1,1,0,2,63,CRC
+56,Ecuador,1,0,2,3,58,ECU
+57,Cyprus,1,0,1,2,63,CYP
+57,Sri Lanka,1,0,1,2,63,SRI
+59,Ethiopia,1,0,0,1,73,ETH
+59,Mongolia,1,0,0,1,73,MGL
+59,Pakistan,1,0,0,1,73,PAK
+59,Peru,1,0,0,1,73,PER
+63,Argentina,0,5,4,9,35,ARG
+64,Egypt,0,5,2,7,41,EGY
+65,Croatia,0,3,4,7,41,CRO
+66,Latvia,0,3,2,5,50,LAT
+67,Georgia,0,3,0,3,58,GEO
+68,"Hong Kong, China",0,2,3,5,50,HKG
+69,Bulgaria,0,2,0,2,63,BUL
+70,Iraq,0,1,2,3,58,IRQ
+71,Kuwait,0,1,1,2,63,KUW
+71,Namibia,0,1,1,2,63,NAM
+71,Romania,0,1,1,2,63,ROU
+71,Slovenia,0,1,1,2,63,SLO
+75,Vietnam,0,1,0,1,73,VIE
+76,Lithuania,0,0,3,3,58,LTU
+77,Portugal,0,0,2,2,63,POR
+78,Bosnia and Herzegovina,0,0,1,1,73,BIH
+78,El Salvador,0,0,1,1,73,ESA
+78,Kenya,0,0,1,1,73,KEN
+78,Saudi Arabia,0,0,1,1,73,KSA
+78,Montenegro,0,0,1,1,73,MNE
+78,Oman,0,0,1,1,73,OMA
+78,Qatar,0,0,1,1,73,QAT
+78,Chinese Taipei,0,0,1,1,73,TPE
+78,Uganda,0,0,1,1,73,UGA
