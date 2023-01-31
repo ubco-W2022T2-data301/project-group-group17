@@ -17,7 +17,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 ## Team Members
 
 - Dylan Forsythe: I read a lot of manga and love to play board games.
-- Person 2: one sentence about you!
+- Conan Shing: I am a professinal photographer and love riding my bike and climbing mountains
 - Person 3: one sentence about you!
 
 ## Images
