@@ -18,13 +18,13 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 - Dylan Forsythe: I read a lot of manga and love to play board games.
 - Conan Shing: I am a professinal photographer and love riding my bike and climbing mountains.
-- Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am nout outside I enjoy applied statistics, GIS, and board games.
+- Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am not outside I enjoy applied statistics, GIS, and board games.
 
 ## Images
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
 
-<img src ="images/test.png" width="100px">
+<img src ="images/CAH_Olympics.png" width="100px">
 
 ## References
 
