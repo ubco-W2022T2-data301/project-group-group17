@@ -19,16 +19,14 @@ The Olympics and Paralympics datasets that we found on kaggle.com includes a vas
 - Dylan Forsythe: I read a lot of manga and love to play board games.
 <<<<<<< HEAD
 - Conan Shing: I am a professional photographer and love riding my bike and climbing mountains.
-=======
 - Conan Shing: I am a professinal photographer and love riding my bike and climbing mountains.
->>>>>>> 4399563465085f9b00379a45d7466775c8a8c9cb
 - Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am not outside I enjoy applied statistics, GIS, and board games.
 
 ## Images
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
 
-<img src ="images/CAH_Olympics.png" width="100px">
+<img src ="images/CAH_Olympics.png" width="500px">
 
 ## References
 
