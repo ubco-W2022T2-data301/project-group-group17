@@ -1,4 +1,4 @@
-# Group 17 - {We're a short and snappy team working on a large project}
+# Group 17 - {Analyzing the History of the Summer and Winter Olympics}
 
 - Your title can change over time.
 
@@ -12,13 +12,13 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+The Olympics and Paralympics datasets that we found on kaggle.com includes a vast amount of information dating back over 100 years with thousands of data points for us to play with. Although, it does have information we may not need; ie: athletes place-of-birth, we know that because of the size of the dataset we are confident that we will be able to zero in on a specific topic using the information in this dataset to produce a strong project.
 
 ## Team Members
 
 - Dylan Forsythe: I read a lot of manga and love to play board games.
-- Conan Shing: I am a professinal photographer and love riding my bike and climbing mountains.
-- Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am nout outside I enjoy applied statistics, GIS, and board games.
+- Conan Shing: I am a professional photographer and love riding my bike and climbing mountains.
+- Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am not outside I enjoy applied statistics, GIS, and board games.
 
 ## Images
 
@@ -28,7 +28,6 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## References
 
-{Add your stuff here}
+- https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018?select=olympic_medals.csv
 
-
-
+- The related datasets inside the above link are also included to ensure we have all of the information as well as ensure licenses are
