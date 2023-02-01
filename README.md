@@ -17,9 +17,7 @@ The Olympics and Paralympics datasets that we found on kaggle.com includes a vas
 ## Team Members
 
 - Dylan Forsythe: I read a lot of manga and love to play board games.
-<<<<<<< HEAD
 - Conan Shing: I am a professional photographer and love riding my bike and climbing mountains.
-- Conan Shing: I am a professinal photographer and love riding my bike and climbing mountains.
 - Cynthia Kielpinski: I adore everything and anything outdoors including skiing, hiking, and wildlife photography! When I am not outside I enjoy applied statistics, GIS, and board games.
 
 ## Images
