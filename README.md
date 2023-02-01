@@ -8,7 +8,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-{Will decide on a dataset by tuesday.}
+History is prominent topic in elementary to highschool education that focuses on critical and cruciual moments of the past that have shaped the pathways in today's society. Since the Olympics have been around since 776 B.C., they are a prominent topic in athletics. The Olympics were originally created to honour the ancient Greek Gods, but more specifically Zeus, who was known to be a ruler and protector. The Olympic games were also famously known to present the ancient Greek's passion for competition. Our topic of interest has been founded around analyzing the history and parameters of the Summer and Winter Olympics from 1986 to 2020. Our overall interests are focused on analyzing ideas such as correlations between competition. There is potential interest to also analyze the history behind Summer and Winter Paralympics from 1986 to 2020, depending on our vision statement for the project.
 
 ## Describe your dataset in about 150-200 words
 
