@@ -12,7 +12,9 @@ History is prominent topic in elementary to highschool education that focuses on
 
 ## Describe your dataset in about 150-200 words
 
-The Olympics and Paralympics datasets that we found on kaggle.com includes a vast amount of information dating back over 100 years with thousands of data points for us to play with. Although, it does have information we may not need; ie: athletes place-of-birth, we know that because of the size of the dataset we are confident that we will be able to zero in on a specific topic using the information in this dataset to produce a strong project.
+
+The Olympics and Paralympics datasets that was found on kaggle.com containing data regarding the sport, games, medal, and country. The data was manually compiled from 1896-2022 and updated with each olympic game. The purpose of this dataset was to compile longitudinal data of Olympic games results to identify if any trends exist. Although our data set is large and complex, several variables will not be of use due to their un-needed detail; such as athlete profile websites. We have several goals the first of which is to identify wether or not being to host country offers a competitive advantage, secondly if any country shows outstanding sport prowess, and finally if any countries are better at the winter or summer games. We all have our own specific questions we would like to answer however they each aim to answer if a country's demographics, or weather predispose them to performing better at the Olympic games. 
+
 
 ## Team Members
 
