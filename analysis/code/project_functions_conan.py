@@ -15,5 +15,4 @@ from scipy import stats
 def male_medals(df, search_str, col1, col2):
 
     mask = df.apply(lambda row: search_str in row.values, axis=1)
-    df.loc[mask, "medal_combined_bysex"] = df[col1] - df[col2]
-
+    df.loc[mask, "medal_all_bysex"] = df[col1] - df[col2]
