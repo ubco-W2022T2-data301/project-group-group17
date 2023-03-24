@@ -107,7 +107,7 @@ def q2_merge(data1, data2):
     df1 = df1.drop(['game_slug', 'game_end_date', 'game_start_date', 'game_name'], axis = 'columns').rename(columns={'game_year' : 'year'})
     
     ### preparing df_medals for merge
-    df2 = medal_bysex
+    df2 = data2
     df2['year'] = df2['year'].astype(int)
     
     ### merging both dataframes together
