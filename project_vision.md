@@ -10,4 +10,4 @@ As more information on the desired outcome of each milestone arises, our vision 
 
 ## Contracted Grade
 
-For this project, we agree to contract for a B.
+For this project, we originally agreed to contract for a B. As of the end of milestone 4, we agree to contract for an A.
