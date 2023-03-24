@@ -96,6 +96,17 @@ def q1_pres_plot(data_frame):
 
 #### Q2 Functions ####
 
+# set up df1 
+def q2_df1(data1):
+    
+    df1 = data1
+    
+    ### preparing df_hosts for merge 
+    
+    df1 = df1.drop(['game_slug', 'game_end_date', 'game_start_date', 'game_name'], axis = 'columns').rename(columns={'game_year' : 'year'})
+    
+    return df1
+    
 
 # merge dataframes for q2 EDA
 def q2_merge(data1, data2):
