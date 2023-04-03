@@ -1,0 +1,38 @@
+discipline_title,year,event_gender,medal_type,participant_type,country_name,medal_bysex,medal_all_bysex,medal_total,medal_all,medal_%
+Athletics,1896,Men,BRONZE,Athlete,Greece,20,49,20,49,100.0
+Swimming,1900,Men,BRONZE,Athlete,France,22,64,37,103,59.45945945945946
+Fencing,1904,Men,SILVER,Athlete,United States of America,79,234,81,241,97.53086419753086
+Athletics,1908,Men,GOLD,Athlete,Great Britain,50,138,60,160,83.33333333333334
+Tennis,1912,Men,SILVER,GameTeam,Sweden,21,58,26,68,80.76923076923077
+Shooting,1920,Men,BRONZE,Athlete,United States of America,23,85,27,96,85.18518518518519
+Swimming,1924,Women,GOLD,GameTeam,United States of America,9,89,50,108,18.0
+Swimming,1928,Men,SILVER,Athlete,United States of America,15,49,20,64,75.0
+Gymnastics Artistic,1932,Men,BRONZE,Athlete,United States of America,28,92,33,120,84.84848484848484
+Canoe Sprint,1936,Men,BRONZE,Athlete,Germany,23,76,29,96,79.3103448275862
+Swimming,1948,Men,GOLD,Athlete,United States of America,34,78,43,98,79.06976744186046
+Figure skating,1952,Men,BRONZE,Athlete,United States of America,14,73,18,90,77.77777777777779
+Speed skating,1956,Men,SILVER,Athlete,Soviet Union,27,96,35,119,77.14285714285715
+Cross Country Skiing,1960,Women,GOLD,Athlete,Soviet Union,19,91,54,130,35.18518518518518
+Shooting,1964,Men,SILVER,Athlete,Soviet Union,30,81,40,125,75.0
+Swimming,1968,Women,GOLD,Athlete,United States of America,16,79,47,117,34.04255319148936
+Canoe Sprint,1972,Women,GOLD,GameTeam,Soviet Union,15,94,65,123,23.076923076923077
+Speed skating,1976,Men,SILVER,Athlete,Soviet Union,30,102,50,162,60.0
+Football,1980,Men,BRONZE,GameTeam,Soviet Union,32,147,54,228,59.25925925925925
+Rowing,1984,Men,GOLD,GameTeam,United States of America,53,106,91,189,58.24175824175825
+Sailing,1988,Women,BRONZE,GameTeam,Soviet Union,19,127,57,172,33.33333333333333
+Athletics,1992,Women,GOLD,GameTeam,Unified Team,16,88,57,141,28.07017543859649
+Cross Country Skiing,1994,Women,GOLD,Athlete,Russian Federation,5,17,13,27,38.46153846153847
+Beach Volleyball,1996,Men,SILVER,GameTeam,United States of America,21,60,35,106,60.0
+Speed skating,1998,Women,BRONZE,Athlete,Germany,5,11,10,32,50.0
+Athletics,2000,Men,SILVER,Athlete,United States of America,19,53,27,102,70.37037037037037
+Biathlon,2002,Women,SILVER,Athlete,Germany,9,17,17,40,52.94117647058824
+Synchronized Swimming,2004,Women,BRONZE,GameTeam,United States of America,15,63,28,106,53.57142857142857
+Bobsleigh,2006,Men,GOLD,GameTeam,Germany,8,13,13,32,61.53846153846154
+Athletics,2008,Men,GOLD,Athlete,United States of America,21,56,39,116,53.84615384615385
+Freestyle Skiing,2010,Men,BRONZE,Athlete,United States of America,8,24,14,39,57.14285714285714
+Athletics,2012,Men,GOLD,Athlete,United States of America,19,48,50,112,38.0
+Luge,2014,Men,SILVER,Athlete,Russian Federation,7,19,11,33,63.63636363636363
+Swimming,2016,Women,GOLD,Athlete,United States of America,27,65,47,127,57.446808510638306
+Ski Jumping,2018,Women,GOLD,Athlete,Norway,4,29,15,42,26.666666666666668
+Basketball,2020,Men,GOLD,GameTeam,United States of America,16,42,40,118,40.0
+Nordic Combined,2022,Men,SILVER,Athlete,Norway,6,26,9,39,66.66666666666666
