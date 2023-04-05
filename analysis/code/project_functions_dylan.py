@@ -26,11 +26,16 @@ def sportpopularity(data, *args):
         
     isolated_sports_df = data[data['discipline_title'].isin(sports)]
     
-    isolated_sports_df = isolated_sports_df.rename(columns={'discipline_title' : 'Sport',
-                                  'event_title' : 'Sporting Event Name',
-                                  'game_location' : 'Olympic Host',
-                                  'game_name' : 'Olympic Name',
-                                  'game_year' : 'Year'})
+    isolated_sports_df = isolated_sports_df.rename(columns={'discipline_title' : 'Sport', 
+                                    'medal_type' : 'Medal Won',
+                                    'event_title' : 'Sport Event',
+                                    'athlete_full_name' : 'Athlete Name', 
+                                    'first_game' : 'First Game',
+                                    'country_name' : 'Home Country',
+                                    'game_location' : 'Host Country', 
+                                    'game_name' : 'Game Name',
+                                    'game_season' : 'Game Season',
+                                    'game_year' : 'Year'})
     isolated_sports_df = isolated_sports_df.reset_index(drop=True)
     
     return isolated_sports_df
