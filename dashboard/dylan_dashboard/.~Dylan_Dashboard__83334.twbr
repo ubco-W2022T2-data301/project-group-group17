@@ -1,0 +1,1312 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0209.1653                               -->
+<workbook original-version='18.1' source-build='2022.4.1 (20224.23.0209.1653)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.SingleValuePerNestSorting.true...SingleValuePerNestSorting />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Research_df' inline='true' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Research_df' name='textscan.1g5o00e1m2kvo915wzu6b03atvve'>
+            <connection class='textscan' directory='/Users/dylan/Desktop/School/Year3/DATA301/Project/project-group-group17/data/processed/dylan_data' filename='Research_df.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1g5o00e1m2kvo915wzu6b03atvve' name='Research_df.csv' table='[Research_df#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='athlete_full_name' ordinal='0' />
+            <column datatype='string' name='first_game' ordinal='1' />
+            <column datatype='string' name='discipline_title' ordinal='2' />
+            <column datatype='string' name='event_title' ordinal='3' />
+            <column datatype='string' name='medal_type' ordinal='4' />
+            <column datatype='string' name='country_name' ordinal='5' />
+            <column datatype='string' name='game_location' ordinal='6' />
+            <column datatype='string' name='game_name' ordinal='7' />
+            <column datatype='string' name='game_season' ordinal='8' />
+            <column datatype='date' date-parse-format='yyyy' name='game_year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1g5o00e1m2kvo915wzu6b03atvve' name='Research_df.csv' table='[Research_df#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='athlete_full_name' ordinal='0' />
+            <column datatype='string' name='first_game' ordinal='1' />
+            <column datatype='string' name='discipline_title' ordinal='2' />
+            <column datatype='string' name='event_title' ordinal='3' />
+            <column datatype='string' name='medal_type' ordinal='4' />
+            <column datatype='string' name='country_name' ordinal='5' />
+            <column datatype='string' name='game_location' ordinal='6' />
+            <column datatype='string' name='game_name' ordinal='7' />
+            <column datatype='string' name='game_season' ordinal='8' />
+            <column datatype='date' date-parse-format='yyyy' name='game_year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>athlete_full_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[athlete_full_name]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>athlete_full_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_game</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[first_game]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>first_game</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>discipline_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[discipline_title]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>discipline_title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_title]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>event_title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medal_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[medal_type]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>medal_type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_name]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[game_location]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>game_location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[game_name]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>game_name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[game_season]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>game_season</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[game_year]</local-name>
+            <parent-name>[Research_df.csv]</parent-name>
+            <remote-alias>game_year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Research_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+      <column caption='Athlete Full Name' datatype='string' name='[athlete_full_name]' role='dimension' type='nominal' />
+      <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Discipline Title' datatype='string' name='[discipline_title]' role='dimension' type='nominal' />
+      <column caption='Event Title' datatype='string' name='[event_title]' role='dimension' type='nominal' />
+      <column caption='First Game' datatype='string' name='[first_game]' role='dimension' type='nominal' />
+      <column caption='Game Location' datatype='string' name='[game_location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Game Name' datatype='string' name='[game_name]' role='dimension' type='nominal' />
+      <column caption='Game Season' datatype='string' name='[game_season]' role='dimension' type='nominal' />
+      <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+      <column caption='Medal Type' datatype='string' name='[medal_type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Research_df.csv' id='Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92'>
+            <properties context=''>
+              <relation connection='textscan.1g5o00e1m2kvo915wzu6b03atvve' name='Research_df.csv' table='[Research_df#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='athlete_full_name' ordinal='0' />
+                  <column datatype='string' name='first_game' ordinal='1' />
+                  <column datatype='string' name='discipline_title' ordinal='2' />
+                  <column datatype='string' name='event_title' ordinal='3' />
+                  <column datatype='string' name='medal_type' ordinal='4' />
+                  <column datatype='string' name='country_name' ordinal='5' />
+                  <column datatype='string' name='game_location' ordinal='6' />
+                  <column datatype='string' name='game_name' ordinal='7' />
+                  <column datatype='string' name='game_season' ordinal='8' />
+                  <column datatype='date' date-parse-format='yyyy' name='game_year' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Research2_df' inline='true' name='federated.174dj7h1v6j32u1erer9703fwddt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Research2_df' name='textscan.0p593b518k3iw111xaqw90sgvawn'>
+            <connection class='textscan' directory='/Users/dylan/Desktop/School/Year3/DATA301/Project/project-group-group17/data/processed/dylan_data' filename='Research2_df.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0p593b518k3iw111xaqw90sgvawn' name='Research2_df.csv' table='[Research2_df#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Athlete Name' ordinal='0' />
+            <column datatype='string' name='First Game' ordinal='1' />
+            <column datatype='string' name='Sport' ordinal='2' />
+            <column datatype='string' name='Sport Event' ordinal='3' />
+            <column datatype='string' name='Medal Won' ordinal='4' />
+            <column datatype='string' name='Home Country' ordinal='5' />
+            <column datatype='string' name='Host Country' ordinal='6' />
+            <column datatype='string' name='Game Name' ordinal='7' />
+            <column datatype='string' name='Game Season' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0p593b518k3iw111xaqw90sgvawn' name='Research2_df.csv' table='[Research2_df#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Athlete Name' ordinal='0' />
+            <column datatype='string' name='First Game' ordinal='1' />
+            <column datatype='string' name='Sport' ordinal='2' />
+            <column datatype='string' name='Sport Event' ordinal='3' />
+            <column datatype='string' name='Medal Won' ordinal='4' />
+            <column datatype='string' name='Home Country' ordinal='5' />
+            <column datatype='string' name='Host Country' ordinal='6' />
+            <column datatype='string' name='Game Name' ordinal='7' />
+            <column datatype='string' name='Game Season' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Athlete Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Athlete Name]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Athlete Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First Game</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[First Game]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>First Game</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport Event</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sport Event]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Sport Event</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medal Won</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Medal Won]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Medal Won</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Home Country]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Home Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Host Country]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Host Country</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Game Name]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Game Name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Game Season]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Game Season</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Research2_df.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Home Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Host Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Research2_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Research2_df.csv' id='Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B'>
+            <properties context=''>
+              <relation connection='textscan.0p593b518k3iw111xaqw90sgvawn' name='Research2_df.csv' table='[Research2_df#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='Athlete Name' ordinal='0' />
+                  <column datatype='string' name='First Game' ordinal='1' />
+                  <column datatype='string' name='Sport' ordinal='2' />
+                  <column datatype='string' name='Sport Event' ordinal='3' />
+                  <column datatype='string' name='Medal Won' ordinal='4' />
+                  <column datatype='string' name='Home Country' ordinal='5' />
+                  <column datatype='string' name='Host Country' ordinal='6' />
+                  <column datatype='string' name='Game Name' ordinal='7' />
+                  <column datatype='string' name='Game Season' ordinal='8' />
+                  <column datatype='integer' name='Year' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_66230DBB340541B4A145DA8F7D4981C9]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Popularity Trends Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Discipline Title' />
+        <param name='target' value='Popularity Trends Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Martial Arts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trends for Martial Arts Sports</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research_df' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kcmmky1rtj6iv1eh4l540mwyw2f'>
+            <_.fcp.ObjectModelTableType.true...column caption='Research_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92:qk]' pivot='key' type='quantitative' />
+            <column caption='Discipline Title' datatype='string' name='[discipline_title]' role='dimension' type='nominal' />
+            <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+            <column-instance column='[discipline_title]' derivation='None' name='[none:discipline_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[game_year]' derivation='None' name='[none:game_year:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Research_df.csv' datatype='integer' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+              <groupfilter function='except'>
+                <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Boxing&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Judo&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Karate&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Taekwondo&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Wrestling&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' included-values='in-range-or-null'>
+            <min>#1896-01-01#</min>
+            <max>#2022-01-01#</max>
+          </filter>
+          <slices>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' value='100' />
+            <format attr='height' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='27' />
+            <encoding attr='space' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' field-type='quantitative' max='1000.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' value='124' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='Martial Arts Year'>
+              <formatted-text>
+                <run>Martial Arts Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='true' enable-instant-analytics='false' enable-tooltips='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.64767956733703613' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]</rows>
+        <cols>([federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk] * [federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk])</cols>
+      </table>
+      <simple-id uuid='{F33D3DB7-82EE-41FF-8101-E1F9D93710A7}' />
+    </worksheet>
+    <worksheet name='Medal Winner'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Medals Awarded to Competitors in their First Game</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research2_df' name='federated.174dj7h1v6j32u1erer9703fwddt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.174dj7h1v6j32u1erer9703fwddt'>
+            <_.fcp.ObjectModelTableType.false...column caption='Research2_df.csv' datatype='integer' name='[__tableau_internal_object_id__].[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Medal Won]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Research2_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Research2_df.csv_73E29C75B2714CBDBAA3299D3B8C7C4B:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Medal Won]' derivation='None' name='[none:Medal Won:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.174dj7h1v6j32u1erer9703fwddt].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <manual-sort column='[federated.174dj7h1v6j32u1erer9703fwddt].[none:Medal Won:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;GOLD&quot;</bucket>
+              <bucket>&quot;SILVER&quot;</bucket>
+              <bucket>&quot;BRONZE&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.174dj7h1v6j32u1erer9703fwddt].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.174dj7h1v6j32u1erer9703fwddt].[Multiple Values]' field-type='quantitative' max='3000.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.174dj7h1v6j32u1erer9703fwddt].[Multiple Values]' scope='cols' value='Number of Medals' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d3b348' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.174dj7h1v6j32u1erer9703fwddt].[none:Medal Won:nk]</rows>
+        <cols>[federated.174dj7h1v6j32u1erer9703fwddt].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{507DA8C5-019B-4792-84D5-570E96E112E7}' />
+    </worksheet>
+    <worksheet name='Skating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trends for Skating Sports</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research_df' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kcmmky1rtj6iv1eh4l540mwyw2f'>
+            <_.fcp.ObjectModelTableType.true...column caption='Research_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92:qk]' pivot='key' type='quantitative' />
+            <column caption='Discipline Title' datatype='string' name='[discipline_title]' role='dimension' type='nominal' />
+            <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+            <column-instance column='[discipline_title]' derivation='None' name='[none:discipline_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[game_year]' derivation='None' name='[none:game_year:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Research_df.csv' datatype='integer' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+              <groupfilter function='except'>
+                <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Figure skating&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Short Track Speed Skating&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Speed skating&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' included-values='in-range'>
+            <min>#1896-01-01#</min>
+            <max>#2026-01-01#</max>
+          </filter>
+          <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' shelf='rows' />
+          </_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' scope='cols' value='Year' />
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' scope='rows' value='Number of Participants' />
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' value='100' />
+            <format attr='display' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' scope='rows' value='false' />
+            <format attr='height' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='30' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' value='124' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='Skating Year'>
+              <formatted-text>
+                <run>Skating Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='true' enable-instant-analytics='false' enable-tooltips='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#1b1b1b' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.64767956733703613' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk] * [federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values])</rows>
+        <cols>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]</cols>
+      </table>
+      <simple-id uuid='{D7EA0C58-BDF6-49C1-AC14-CB00E5D8CBB0}' />
+    </worksheet>
+    <worksheet name='Snow and Ski'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trends for Snowboarding and Skiing Sports</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research_df' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kcmmky1rtj6iv1eh4l540mwyw2f'>
+            <_.fcp.ObjectModelTableType.true...column caption='Research_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92:qk]' pivot='key' type='quantitative' />
+            <column caption='Discipline Title' datatype='string' name='[discipline_title]' role='dimension' type='nominal' />
+            <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+            <column-instance column='[discipline_title]' derivation='None' name='[none:discipline_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[game_year]' derivation='None' name='[none:game_year:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Research_df.csv' datatype='integer' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+              <groupfilter function='except'>
+                <groupfilter function='level-members' level='[none:discipline_title:nk]' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Alpine Skiing&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Biathlon&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Cross Country Skiing&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Freestyle Skiing&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Ski Jumping&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='&quot;Snowboard&quot;' />
+                  <groupfilter function='member' level='[none:discipline_title:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' included-values='in-range'>
+            <min>#1896-01-01#</min>
+            <max>#2022-01-01#</max>
+          </filter>
+          <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' shelf='rows' />
+          </_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' scope='cols' value='Year' />
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' scope='rows' value='Number of Participants' />
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' value='100' />
+            <format attr='display' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' scope='rows' value='false' />
+            <format attr='height' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='27' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]' value='84' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' value='Snowboarding and Skiing Year'>
+              <formatted-text>
+                <run>Snowboarding and Skiing Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enable-tooltips='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#942192' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='size' value='0.91154694557189941' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk] * [federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values])</rows>
+        <cols>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]</cols>
+      </table>
+      <simple-id uuid='{82CFC938-7767-40D0-A4A2-2C69146F77F4}' />
+    </worksheet>
+    <worksheet name='Top5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trends for the 5 Most Popular Sports
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research_df' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kcmmky1rtj6iv1eh4l540mwyw2f'>
+            <_.fcp.ObjectModelTableType.true...column caption='Research_df.csv' datatype='table' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92:qk]' pivot='key' type='quantitative' />
+            <column caption='Athlete Full Name' datatype='string' name='[athlete_full_name]' role='dimension' type='nominal' />
+            <column caption='Discipline Title' datatype='string' name='[discipline_title]' role='dimension' type='nominal' />
+            <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+            <column-instance column='[discipline_title]' derivation='None' name='[none:discipline_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[game_year]' derivation='Year-Trunc' name='[tyr:game_year:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Research_df.csv' datatype='integer' name='[__tableau_internal_object_id__].[Research_df.csv_AD890FDD57A34C429CDDF8C3B98E0E92]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([athlete_full_name])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:discipline_title:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[:Measure Names]</column>
+            <column>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[tyr:game_year:qk]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' scope='rows' value='Number of Participants' />
+            <format attr='title' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[tyr:game_year:qk]' scope='cols' value='Year' />
+            <encoding attr='space' class='0' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[tyr:game_year:qk]' field-type='quantitative' major-origin='#1900-12-30 00:00:00#' major-spacing='20.0' major-units='years' max='#2030-12-30 00:00:00#' min='#1880-12-30 00:00:00#' minor-origin='#1960-01-01 12:00:00#' minor-show='false' minor-spacing='1.0' minor-units='months' range-type='fixed' scope='cols' type='space' />
+            <format attr='width' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' value='64' />
+            <format attr='height' field='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[tyr:game_year:qk]' value='41' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enable-tooltips='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+                <format attr='size' value='0.80160218477249146' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-range-field' value='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]' />
+                <format attr='mark-labels-mode' value='line-ends' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='200' />
+                <format attr='maxwidth' value='200' />
+                <format attr='minheight' value='549' />
+                <format attr='maxheight' value='549' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[Multiple Values]</rows>
+        <cols>([federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:discipline_title:nk] * [federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[tyr:game_year:qk])</cols>
+      </table>
+      <simple-id uuid='{081D4111-B050-4901-A34D-435E857136BF}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Popularity Trends Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Research_df' name='federated.0kcmmky1rtj6iv1eh4l540mwyw2f' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0kcmmky1rtj6iv1eh4l540mwyw2f'>
+        <column caption='Game Year' datatype='date' name='[game_year]' role='dimension' type='quantitative' />
+        <column-instance column='[game_year]' derivation='None' name='[none:game_year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98160' id='37' param='horz' type-v2='layout-flow' w='98888' x='556' y='920'>
+            <zone h='98160' id='19' param='vert' type-v2='layout-flow' w='98888' x='556' y='920'>
+              <zone h='98160' id='7' param='horz' type-v2='layout-flow' w='98888' x='556' y='920'>
+                <zone h='98160' id='5' type-v2='layout-basic' w='98888' x='556' y='920'>
+                  <zone h='47419' id='3' name='Snow and Ski' w='46896' x='556' y='920'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='38387' id='9' name='Skating' w='51992' x='47452' y='920'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='35457' id='11' name='Martial Arts' w='45340' x='556' y='56308'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='50741' id='13' name='Top5' w='53548' x='45896' y='48339'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='7969' id='8' name='Snow and Ski' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45340' x='556' y='48339'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9032' id='10' name='Skating' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='51992' x='47452' y='39307'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='7315' id='12' name='Martial Arts' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45340' x='556' y='91765'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97880' id='76' param='vert' type-v2='layout-flow' w='98698' x='651' y='1060'>
+                <zone h='7947' id='8' name='Snow and Ski' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45254' x='651' y='48344'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47284' id='3' is-fixed='true' name='Snow and Ski' w='46807' x='651' y='1060'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9006' id='10' name='Skating' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='51891' x='47458' y='39338'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38278' id='9' is-fixed='true' name='Skating' w='51891' x='47458' y='1060'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50596' id='13' is-fixed='true' name='Top5' w='53444' x='45905' y='48344'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7294' id='12' name='Martial Arts' param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45254' x='651' y='91646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='275' h='35355' id='11' is-fixed='true' name='Martial Arts' w='45254' x='651' y='56291'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{457F33DA-DE24-4127-A01F-E04975EF7770}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' show-side-pane='false' source-height='51'>
+    <window class='worksheet' name='Snow and Ski'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{FB422C47-B22E-44C2-A101-014926A65B58}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Skating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0kcmmky1rtj6iv1eh4l540mwyw2f].[none:game_year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{57641B54-8CFA-4657-A1C3-2D11A71AAA06}' />
+    </window>
+    <window class='worksheet' name='Martial Arts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{190479EB-D26D-48A4-8F69-7E98E450B583}' />
+    </window>
+    <window class='worksheet' name='Top5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{48530C98-8B70-4F17-B4A2-75F3664F32E2}' />
+    </window>
+    <window class='worksheet' name='Medal Winner'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{857C4FEA-9F58-46CD-AD3B-A00793481826}' />
+    </window>
+    <window class='dashboard' name='Popularity Trends Dashboard'>
+      <viewpoints>
+        <viewpoint name='Martial Arts'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Skating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Snow and Ski'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <device-preview>
+        <device name='Generic Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{8D8E9B5A-49D1-420A-9512-7D111863B008}' />
+    </window>
+  </windows>
+</workbook>
