@@ -1,0 +1,54 @@
+game_location,game_season,year,counts,discipline_title,event_gender,medal_type,participant_type,country_name,medal_bysex,medal_all_bysex,medal_total,medal_all,medal_%
+China,Winter,2022,2,Cross Country Skiing,Men,BRONZE,Athlete,Norway,9,26,13,39,69.23076923076923
+Japan,Summer,2020,4,Diving,Women,SILVER,GameTeam,United States of America,23,68,44,118,52.27272727272727
+Republic of Korea,Winter,2018,2,Speed skating,Men,GOLD,GameTeam,Norway,11,25,15,42,73.33333333333333
+Brazil,Summer,2016,1,Cycling BMX,Women,SILVER,Athlete,United States of America,17,62,40,127,42.5
+Russian Federation,Winter,2014,1,Freestyle Skiing,Men,BRONZE,Athlete,Russian Federation,4,19,10,33,40.0
+Great Britain,Summer,2012,3,Wrestling,Men,GOLD,Athlete,United States of America,19,48,50,112,38.0
+Canada,Winter,2010,3,Freestyle Skiing,Women,GOLD,Athlete,United States of America,2,13,9,39,22.22222222222222
+China,Summer,2008,2,Swimming,Women,SILVER,Athlete,United States of America,24,56,39,116,61.53846153846154
+Italy,Winter,2006,3,Biathlon,Women,BRONZE,Athlete,Germany,3,17,6,32,50.0
+Greece,Summer,2004,2,Swimming,Men,BRONZE,Athlete,United States of America,11,56,28,106,39.285714285714285
+United States,Winter,2002,8,Bobsleigh,Women,SILVER,GameTeam,Germany,9,23,17,40,52.94117647058824
+Australia,Summer,2000,1,Sailing,Open,GOLD,GameTeam,United States of America,3,7,40,102,7.5
+Japan,Winter,1998,4,Ski Jumping,Men,SILVER,GameTeam,Germany,1,7,9,32,11.11111111111111
+United States,Summer,1996,8,Rowing,Men,BRONZE,GameTeam,United States of America,13,60,25,106,52.0
+Norway,Winter,1994,2,Cross Country Skiing,Women,SILVER,Athlete,Russian Federation,3,10,10,27,30.0
+Spain,Summer,1992,1,Modern Pentathlon,Men,BRONZE,Athlete,Unified Team,17,80,39,141,43.58974358974359
+France,Winter,1992,5,Modern Pentathlon,Men,BRONZE,Athlete,Unified Team,17,80,39,141,43.58974358974359
+Republic of Korea,Summer,1988,2,Athletics,Men,GOLD,Athlete,Soviet Union,50,118,71,172,70.4225352112676
+Canada,Winter,1988,3,Athletics,Men,GOLD,Athlete,Soviet Union,50,118,71,172,70.4225352112676
+United States,Summer,1984,8,Cycling Track,Men,GOLD,Athlete,United States of America,53,106,91,189,58.24175824175825
+Yugoslavia,Winter,1984,1,Cycling Track,Men,GOLD,Athlete,United States of America,53,106,91,189,58.24175824175825
+USSR,Summer,1980,1,Canoe Sprint,Women,SILVER,GameTeam,Soviet Union,18,56,78,228,23.076923076923077
+United States,Winter,1980,8,Canoe Sprint,Women,SILVER,GameTeam,Soviet Union,18,56,78,228,23.076923076923077
+Canada,Summer,1976,3,Fencing,Men,GOLD,Athlete,Soviet Union,46,102,68,162,67.64705882352942
+Austria,Winter,1976,2,Fencing,Men,GOLD,Athlete,Soviet Union,46,102,68,162,67.64705882352942
+Federal Republic of Germany,Summer,1972,1,Judo,Men,BRONZE,Athlete,Soviet Union,16,81,25,123,64.0
+Japan,Winter,1972,4,Judo,Men,BRONZE,Athlete,Soviet Union,16,81,25,123,64.0
+Mexico,Summer,1968,1,Shooting,Open,GOLD,Athlete,United States of America,5,9,47,117,10.638297872340425
+France,Winter,1968,5,Shooting,Open,GOLD,Athlete,United States of America,5,9,47,117,10.638297872340425
+Japan,Summer,1964,4,Rowing,Men,GOLD,GameTeam,Soviet Union,27,81,44,125,61.36363636363637
+Austria,Winter,1964,2,Rowing,Men,GOLD,GameTeam,Soviet Union,27,81,44,125,61.36363636363637
+Italy,Summer,1960,3,Wrestling,Men,BRONZE,Athlete,Soviet Union,32,87,41,130,78.04878048780488
+United States,Winter,1960,8,Wrestling,Men,BRONZE,Athlete,Soviet Union,32,87,41,130,78.04878048780488
+"Australia, Sweden",Summer,1956,1,Wrestling,Men,BRONZE,Athlete,Soviet Union,31,96,38,119,81.57894736842105
+Italy,Winter,1956,3,Wrestling,Men,BRONZE,Athlete,Soviet Union,31,96,38,119,81.57894736842105
+Finland,Summer,1952,1,Sailing,Open,GOLD,GameTeam,United States of America,2,4,44,90,4.545454545454546
+Norway,Winter,1952,2,Sailing,Open,GOLD,GameTeam,United States of America,2,4,44,90,4.545454545454546
+Great Britain,Summer,1948,3,Sailing,Open,BRONZE,GameTeam,United States of America,2,6,23,98,8.695652173913043
+Switzerland,Winter,1948,2,Sailing,Open,BRONZE,GameTeam,United States of America,2,6,23,98,8.695652173913043
+Germany,Summer,1936,2,Wrestling,Men,SILVER,Athlete,Germany,23,76,29,96,79.3103448275862
+Germany,Winter,1936,2,Wrestling,Men,SILVER,Athlete,Germany,23,76,29,96,79.3103448275862
+United States,Summer,1932,8,Athletics,Men,GOLD,Athlete,United States of America,36,92,50,120,72.0
+United States,Winter,1932,8,Athletics,Men,GOLD,Athlete,United States of America,36,92,50,120,72.0
+Netherlands,Summer,1928,1,Athletics,Men,GOLD,GameTeam,United States of America,19,49,25,64,76.0
+Switzerland,Winter,1928,2,Athletics,Men,GOLD,GameTeam,United States of America,19,49,25,64,76.0
+France,Summer,1924,5,Gymnastics Artistic,Men,GOLD,Athlete,United States of America,39,85,50,108,78.0
+France,Winter,1924,5,Gymnastics Artistic,Men,GOLD,Athlete,United States of America,39,85,50,108,78.0
+Belgium,Summer,1920,1,Boxing,Men,GOLD,Athlete,United States of America,38,85,42,96,90.47619047619048
+Sweden,Summer,1912,1,Athletics,Men,BRONZE,Athlete,Sweden,15,58,18,68,83.33333333333334
+Great Britain,Summer,1908,3,Shooting,Men,GOLD,GameTeam,Great Britain,50,138,60,160,83.33333333333334
+United States,Summer,1904,8,Fencing,Men,SILVER,Athlete,United States of America,79,234,81,241,97.53086419753086
+France,Summer,1900,5,Sailing,Open,GOLD,GameTeam,France,11,38,28,103,39.285714285714285
+Greece,Summer,1896,2,Fencing,Men,BRONZE,Athlete,Greece,20,49,20,49,100.0
