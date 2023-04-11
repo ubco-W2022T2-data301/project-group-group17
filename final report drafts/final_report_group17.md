@@ -79,3 +79,82 @@ With the help of exploratory data analysis, someone is able to interpret and man
 In conclusion, popularity is difficult to determine based simply on the number of participants because many other factors are not included, such as: the number of people that tune in to watch each sport, the difficulty of the sport, or the cost to even play the sport. Many of these factors could influence the popularity of sports. With that in mind, my analysis solely looks at how the number of people entering the sport changed over time to see which ones could be classified as the "most popular". Due to there being a large amount of unique sports, plotting them all on a single graph would look extremely messy. Thus, I split up my analysis to look at "similar" sports. That way, my graphs are readable and eliminate comparing completely unrelated sports to each other.
 My first research subquestion analysis found that alpine skiing and biatholon are amongst the most popular snow sports. My next subquestion analysis found that the most popular solo skating sport has been speed skating. Then my last subquestion found that the martial arts worlds of wrestling, judo, and boxing are neck-and-neck in popularity, however judo has seen the quickest increase in pariticipants of the three.
 My second research question was more of a quick analysis that I found while performing my EDA. The number of people to earn an Olympic medal in their first appearance was only 7208 in the history of the Olympics. Since our dataset spans over 120 years, I was surprised to find that this represents approximately 5% of all people that have ever been a part of the Olympics.
+
+---
+#### **Conan Shing**<br>
+#### **Date: April 10 2023**
+---
+### **INTRODUCTION:** <br>
+Sex diffrences and more recently gender diffrences in almost all fields exist. Historically academic research, normative studies, and predicvtive values have disproportiantly consited of males. My background in cardiovascular clincal research was no diffrent and I hoped to bring my intrest in comparing physiological diffrences in biological sex to this project. Sports have always been a big part of my life and continue to be, however there has always been a gender disparity in sport and thats what I aimed to answer with this project. My goal was to look at medal winners, and athlete attendnace at a variety of games to both see how gender diffrences changed over time and more specifically compared the gender diffrences at the recent 2022 games. 
+
+### **EXPLORATORY DATA ANALYSIS:** <br>
+Exploratory data analysis invovles digging around in your data and idnetifiying gross trends that might appear. In many cases its very rudimentary and it's only function is to provide us with a direction to investigate further. In order to answer my questions (listed below) I needed to wrangle and merge several data frames to combine game locations, medal winners, and athelte demographics. Initially my questions invovolved identifying how well the number of times hosting a games impact how well the country does at the games (*Figure 1, 2*). Once I had completed my inital EDA I found that this was a far too simplistic question and found I was able to just visually compare the 2 top 10 countries. Knowing that I switched gears to investigate sex diffrences in all time medal winning countries as well as comparisions between athlete attendace and medal winners (Figure 2). As I switched to this direction it invoved the addition of several caluclated columns which would allow me to compare male and female metrics. Below I outline my findings...
+
+<img src ="../images/conan_figures/fig_1.png" width="750px" class="center"><br>
+*Figure 1*: Top 10 all time medal winners 
+
+<img src ="../images/conan_figures/fig_2.png" width="750px" class="center"><br>
+*Figure 2*: Number of times each country has hosted a games seperated by season
+
+### **RESEARCH QUESTION 1:**<br>
+#### **How does the ratio of male and female medal winners change over time in the top country at each games?**
+
+It appears for the most part men have dominated the number of medals won by the top country each year, however this trend appears to be changing following 1996 with women appearing to contribute a similar ammount of medals to the total medal count as men (*Figure 3*). This may be due to the increase ammount of females both participating in sport and being allowed to participate in sport. Historcally women have been banned from high performance sport, and despite still facing challanges today the barriers they face have been reduced. 
+
+<img src ="../images/conan_figures/fig_3.png" width="750px" class="center"><br>
+*Figure 3*: Male and female medal winner composition of the top country at each games. 
+
+Notably in 1994 biannual games began (winter and summer) as opposed to games every 4 years. The signficnatly lower number of medals is attributed to the reduced number of medals up for grabs in the winter games when compared to the summer games. 
+
+I was able to quantify if males the diffrence in males and female medal winners is improving as shown in (*Figure 4*). This plot confirms that at after 1996 females were able to either win more medals than men at that games or at least close the gap between genders.
+
+<img src ="../images/conan_figures/fig_4.png" width="750px" class="center"><br>
+*Figure 3*: Diffrence in male and female medals won in the top medal winning country at each games. Red line: diffrnece in male and female medal winners; Dotted line: equal male and female medals won.  
+
+Limitations do exist for this analysis with the potential for lost data and improer recording earler on in the games being a real possibilty. There is also possibly an easy explanation for the reason why women appear to be able to match men in medal performance as womens rights and female attendnace advocacy dramatically increased at that time. There is also missing data during the 2 world wars. 
+
+### **RESEARCH QUESTION 2:**<br>
+#### **How does the times hosting a games improve a country's medal winning performance?**
+
+To answer this question I first set out to identify who were the top 10 medal winning countries of all time (*Figure 5*). I then identified how many time each host country hosted a games (*Figure 6*). 
+
+<img src ="../images/conan_figures/fig_5.png" width="750px" class="center"><br>
+*Figure 5*: Top 10 medal winners of all time
+
+<img src ="../images/conan_figures/fig_6.png" width="750px" class="center"><br>
+*Figure 6*: Number of times each host country has hosted a games 
+
+With these 2 figures I was able to visually compare how the 2 overlaped and found only a few of the top 10 medal winners were also top 10 hosts (US, France, Great Britain). Notably the order was also not the same as I had intially predicted. Knowing this I decided to conduct a non linear regression to idnetify if any relationship exists (*Figure 7*). This image shows that for the most part no trend exists, with there potentially being a slight relationship at higher numbers of times hosting. As there only seems to be small relationship I can conclude that although hosting more times CAN improve your chance of winning more medals however there are probably several more factors that would contribute. 
+
+<img src ="../images/conan_figures/fig_7.png" width="750px" class="center"><br>
+*Figure 6*: Non linear regression model of medals won and times hosting a games. Blue circles: individual countries; Black line: non-linear regression; shaded area: 95% confidence interval. 
+
+
+### **RESEARCH QUESTION 3:**<br>
+#### **Are there more males vs females sent to the games and if so do the ammount of medals won related to the number of athletes sent?**
+
+To answer this question I firt wanted to see the diffrence in male and female athelte attendance to the 2022 games. I chose the 2022 games because it was the most recent and had readily avilable accurate data.When I ploted male and female athlete attendance I saw there seemed to be realativly even number of male and female athletes sent (*Figure 8*) 
+
+<img src ="../images/conan_figures/fig_8.png" width="750px" class="center"><br>
+*Figure 8*: Number of male and female athletes sent to 2022 games by each country 
+
+Knowing that there was a similar number of athletes in attendance I then decided to calcualte linear regressions to determine if there was a diffrnece in the relationship between male and female medal winners (*Figure 9, 10*). When plotted females appeared to have a steeper regression (0.2 vs 0.1) suggesting a steeper relationship for females. This plot suggests the for every female athlete that is sent to the game they do better than every male athelte that is sent to the games.
+
+<img src ="../images/conan_figures/fig_9.png" width="750px" class="center"><br>
+*Figure 9*: Linear regression model of male athletes sent vs medals won 
+
+<img src ="../images/conan_figures/fig_10.png" width="750px" class="center"><br>
+*Figure 10*: Linear regression model of female athletes sent vs medals won
+
+Next I decided to zoom in to look at the top 10 male and female medal winner countries to invesigate how many medals were won for the atheltes that were sent (*Figure 11, 12*). What I found was there does not appear to be a strong correlation between the number of athletes sent and number of medals won...at least visually. This is confirmed by the previous regressions as they both have a very low slope suggesting a weak relationship between the 2 variables. 
+
+<img src ="../images/conan_figures/fig_11.png" width="750px" class="center"><br>
+*Figure 11*: Comparision of medals won vs athletes sent for men
+
+<img src ="../images/conan_figures/fig_12.png" width="750px" class="center"><br>
+*Figure 12*: Linear regression model of female athletes sent vs medals won
+Comparision of medals won vs athletes sent for women
+
+### **Conclusion of Analysis Project:**<br>
+
+In conclusion, the questions answered here are not the ones I had initally set out to answer. By pivoting to compare sex diffrences I found results that did not align with my expectations. Although I can conclude that there have been more males than females sent to the games with this discrepincy changing in recent years I did not expect to see such a weak relationship between athlete attendance and medals won of each country. I was shocked to find that females had a steeper relationship compared to males, however this finding needs to be taken with a grain of salt as the slopes are very weak to begin with and this likely would not repersent a statistical difference. A similar weak finding was present when I compared the number of times hosting to total medals won. In conclusion I can say that female athelte attendance is trending upwards with as well as medals winners however the relationship between athlete attednance and medals won remains weak and potetinally statistically insignificant. 
