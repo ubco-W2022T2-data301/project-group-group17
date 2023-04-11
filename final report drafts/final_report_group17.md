@@ -127,7 +127,7 @@ To answer this question I first set out to identify who were the top 10 medal wi
 With these 2 figures I was able to visually compare how the 2 overlaped and found only a few of the top 10 medal winners were also top 10 hosts (US, France, Great Britain). Notably the order was also not the same as I had intially predicted. Knowing this I decided to conduct a non linear regression to idnetify if any relationship exists (*Figure 7*). This image shows that for the most part no trend exists, with there potentially being a slight relationship at higher numbers of times hosting. As there only seems to be small relationship I can conclude that although hosting more times CAN improve your chance of winning more medals however there are probably several more factors that would contribute. 
 
 <img src ="../images/conan_figures/fig_7.png" width="750px" class="center"><br>
-*Figure 6*: Non linear regression model of medals won and times hosting a games. Blue circles: individual countries; Black line: non-linear regression; shaded area: 95% confidence interval. 
+*Figure 7*: Non linear regression model of medals won and times hosting a games. Blue circles: individual countries; Black line: non-linear regression; shaded area: 95% confidence interval. 
 
 
 ### **RESEARCH QUESTION 3:**<br>
