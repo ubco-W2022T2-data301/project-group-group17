@@ -139,21 +139,19 @@ To answer this question I firt wanted to see the diffrence in male and female at
 <img src ="../images/conan_figures/fig_8.png" width="750px" class="center"><br>
 *Figure 8*: Number of male and female athletes sent to 2022 games by each country 
 
-Knowing that there was a similar number of athletes in attendance I then decided to calcualte linear regressions to determine if there was a diffrnece in the relationship between male and female medal winners (*Figure 9, 10*). When plotted females appeared to have a steeper regression (0.2 vs 0.1) suggesting a steeper relationship for females. This plot suggests the for every female athlete that is sent to the game they do better than every male athelte that is sent to the games.
+Knowing that there was a similar number of athletes in attendance I then decided to calcualte linear regressions to determine if there was a diffrnece in the relationship between male and female medal winners (*Figure 9*). When plotted females appeared to have a steeper regression (0.2 vs 0.1) suggesting a steeper relationship for females. This plot suggests the for every female athlete that is sent to the game they do better than every male athelte that is sent to the games.
 
-<img src ="../images/conan_figures/fig_9.png" width="750px" class="center"><br>
-*Figure 9*: Linear regression model of male athletes sent vs medals won 
+<img src ="../images/conan_figures/fig_9_10.png" width="750px" class="center"><br>
+*Figure 9*: Linear regression model of male and female athletes sent vs medals won 
 
-<img src ="../images/conan_figures/fig_10.png" width="750px" class="center"><br>
-*Figure 10*: Linear regression model of female athletes sent vs medals won
 
-Next I decided to zoom in to look at the top 10 male and female medal winner countries to invesigate how many medals were won for the atheltes that were sent (*Figure 11, 12*). What I found was there does not appear to be a strong correlation between the number of athletes sent and number of medals won...at least visually. This is confirmed by the previous regressions as they both have a very low slope suggesting a weak relationship between the 2 variables. 
+Next I decided to zoom in to look at the top 10 male and female medal winner countries to invesigate how many medals were won for the atheltes that were sent (*Figure 10, 11*). What I found was there does not appear to be a strong correlation between the number of athletes sent and number of medals won...at least visually. This is confirmed by the previous regressions as they both have a very low slope suggesting a weak relationship between the 2 variables. 
 
 <img src ="../images/conan_figures/fig_11.png" width="750px" class="center"><br>
-*Figure 11*: Comparision of medals won vs athletes sent for men
+*Figure 10*: Comparision of medals won vs athletes sent for men
 
 <img src ="../images/conan_figures/fig_12.png" width="750px" class="center"><br>
-*Figure 12*: Linear regression model of female athletes sent vs medals won
+*Figure 11*: Linear regression model of female athletes sent vs medals won
 Comparision of medals won vs athletes sent for women
 
 ### **Conclusion of Analysis Project:**<br>
