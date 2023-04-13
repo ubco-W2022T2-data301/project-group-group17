@@ -139,7 +139,7 @@ To answer this question I firt wanted to see the diffrence in male and female at
 <img src ="../images/conan_figures/fig_8.png" width="750px" class="center"><br>
 *Figure 8*: Number of male and female athletes sent to 2022 games by each country 
 
-Knowing that there was a similar number of athletes in attendance I then decided to calcualte linear regressions to determine if there was a diffrnece in the relationship between male and female medal winners (*Figure 9*). When plotted females appeared to have a steeper regression (0.2 vs 0.1) suggesting a steeper relationship for females. This plot suggests the for every female athlete that is sent to the game they do better than every male athelte that is sent to the games.
+Knowing that there was a similar number of athletes in attendance I then decided to calcualte linear regressions to determine if there was a diffrnece in the relationship between male and female medal winners (*Figure 9*). When plotted females appeared to have a steeper regression (0.15 vs 0.14) suggesting a steeper relationship for females. This plot suggests the for every female athlete that is sent to the game they do better than every male athelte that is sent to the games.
 
 <img src ="../images/conan_figures/fig_9_10.png" width="750px" class="center"><br>
 *Figure 9*: Linear regression model of male and female athletes sent vs medals won 
